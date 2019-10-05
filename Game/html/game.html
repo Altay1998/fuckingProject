@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/game.css">
+</head>
+
+<body>
+    <main class="container">
+        <div class="row first-car">
+            <div class="road-part col-9"></div>
+            <div class="button-part col-3">
+                <div class="button">
+                    <select name="choose" id="select-part" class="form-control col-12">
+                        <option value="car" selected disabled hidden>Choose...</option>
+                        <option class="car1" value="car1">Car</option>
+                        <option class="car2" value="car2">Car</option>
+                        <option class="car3" value="car3">Car</option>
+                        <option class="car4" value="car4">Car</option>
+                    </select>
+                    <button class="ok btn-success col-12">OK</button>
+                </div>
+            </div>
+        </div>
+        <div class="row second-car">
+            <div class="road-part col-9"></div>
+            <div class="button-part col-3">
+                <div class="button">
+                    <select name="choose" id="select-part" class="form-control col-12">
+                        <option value="car" selected disabled hidden>Choose...</option>
+                        <option value="car1">Car</option>
+                        <option value="car2">Car</option>
+                        <option value="car3">Car</option>
+                        <option value="car4">Car</option>
+                    </select>
+                    <button class="ok btn-success col-12">OK</button>
+                </div>
+            </div>
+        </div>
+        <div class="row third-button">
+            <div class="start col-3"></div>
+            <div class="stop col-3"></div>
+            <div class="restart col-3"></div>
+            <div class="functionality col-3">
+                <div class="row">
+                    <div class="choose-part col-6">
+                        <div class="road">
+                            <select name="choose" id="select-part" class="form-control col-12">
+                                <option value="road" selected disabled hidden>Road</option>
+                                <option value="road1">Road 1</option>
+                                <option value="road2">Road 2 </option>
+                            </select>
+                            <button class="ok btn-success col-12">OK</button>
+                        </div>
+                    </div>
+                    <div class="choose-color col-6">
+                        <div class="color">
+                            <select name="choose" id="select-part" class="form-control col-12">
+                                <option value="color" selected disabled hidden>Color</option>
+                                <option value="red">Red</option>
+                                <option value="green">Green</option>
+                                <option value="blue">Blue</option>
+                            </select>
+                            <button class="ok btn-success col-12">OK</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="choose-part col-12">
+                        <div class="function">
+                            <select name="choose" id="select-part" class="form-control col-12">
+                                <option value="button" selected disabled hidden>Function</option>
+                                <option value="start">Start</option>
+                                <option value="stop">Stop</option>
+                                <option value="restart">Restart</option>
+                            </select>
+                            <button class="ok btn-success col-12">OK</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+
+
+
+
+    <script>
+        let choosecar = document.getElementsByClassName("car1");
+        choosecar.addEventListener('click', function(){
+            let car = document.createElement("img");
+            car.src = "/img/kisspng-pixel-car-pixel-art-pixel-5abcbfef686397.2823823115223193434276.png"
+        })
+    </script>
+</body>
+
+</html>

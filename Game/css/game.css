@@ -1,0 +1,69 @@
+.container {
+  border: 2px solid black;
+  width: 100%;
+  height: 600px;
+}
+
+.container .first-car {
+  border-bottom: 2px solid black;
+  height: 200px;
+}
+
+.container .first-car .road-part {
+  border-right: 2px solid black;
+}
+
+.container .button-part {
+  height: 200px;
+  text-align: center;
+}
+
+.container .button-part .button {
+  margin-top: 10px;
+}
+
+.container .button-part .button #select-part {
+  width: 15em;
+}
+
+.container .second-car {
+  border-bottom: 2px solid black;
+  height: 200px;
+}
+
+.container .second-car .road-part {
+  border-right: 2px solid black;
+}
+
+.container .third-button .start {
+  border-right: 2px solid black;
+  height: 198px;
+}
+
+.container .third-button .stop {
+  border-right: 2px solid black;
+  height: 198px;
+}
+
+.container .third-button .restart {
+  border-right: 2px solid black;
+  height: 198px;
+}
+
+button {
+  width: 100%;
+  outline: none;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.functionality {
+  padding-top: 3px;
+}
+
+.functionality .function {
+  margin-top: 4px;
+}
+/*# sourceMappingURL=game.css.map */
